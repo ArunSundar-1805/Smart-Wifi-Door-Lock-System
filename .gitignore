@@ -1,0 +1,37 @@
+# Ignore Arduino build files
+*.pio
+*.elf
+*.bin
+*.map
+*.hex
+*.a
+*.log
+*.dbg
+*.cache
+
+# Ignore Visual Studio Code settings
+.vscode/
+
+# Ignore PlatformIO environment folders
+.env/
+.pio/
+
+# Ignore temporary and backup files
+*.bak
+*.tmp
+*.swp
+*.swo
+
+# Ignore compiled output directories
+build/
+
+# Ignore secrets file with credentials
+credentials.h
+config.h
+
+# Ignore Arduino-specific files
+*.lock
+*.DS_Store
+
+# Ignore system files
+Thumbs.db
